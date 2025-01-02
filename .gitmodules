@@ -1,0 +1,3 @@
+[submodule "Source/Dependencies/Lucky"]
+	path = Source/Dependencies/Lucky
+	url = https://github.com/jessechounard/Lucky.git
