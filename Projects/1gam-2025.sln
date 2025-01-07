@@ -11,6 +11,9 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lucky", "..\Source\Dependencies\Lucky\Projects\VisualStudio\Lucky.vcxproj", "{97A5E4E7-4A88-4016-A070-316CAE94CB90}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "January", "January\January.vcxproj", "{60E4F471-6DBA-4252-9371-0B9200E07282}"
+	ProjectSection(ProjectDependencies) = postProject
+		{97A5E4E7-4A88-4016-A070-316CAE94CB90} = {97A5E4E7-4A88-4016-A070-316CAE94CB90}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
